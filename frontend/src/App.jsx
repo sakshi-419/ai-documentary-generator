@@ -27,7 +27,7 @@ function App() {
 
       // SCRIPT API Call
       const response = await axios.post(
-        "http://localhost:5000/generate",
+        "https://ai-documentary-generator.onrender.com/generate",
         {
           topic,
         }
